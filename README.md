@@ -33,7 +33,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 
 ## Learning Resources
 1. [gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
-2. [pointers in c](https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think/)
+2. [structure in c](https://www.studytonight.com/c/structures-in-c.php/)
 3. [Dynamic memory allocation](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
 4. [git inspector](https://github.com/ejwa/gitinspector.git)
 5. [github workflow](https://docs.github.com/en/actions/learn-github-action)
