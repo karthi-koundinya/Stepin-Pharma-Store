@@ -20,10 +20,10 @@
 
 **Examples:**
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/edit/main/1_Requirements/example.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/1_Requirements/example.jpg)
 ## SWOT Analysis: 
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/edit/main/1_Requirements/swot.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/1_Requirements/swot.jpg)
 
 
 # 4W and 1H
