@@ -13,47 +13,20 @@
 
 ## Defining Our System
 
-![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements/SYSTEM_DEFINITION.png)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/edit/main/1_Requirements/design.jpg)
 
 ## Research:
 
 
-![image](https://user-images.githubusercontent.com/80566521/114319584-bbb68000-9b2f-11eb-9044-67c8093a5842.png)
-
 **Examples:**
 
-| Decimal |	Binary | Octal	| Hexadecimal|
-|:---:|:---:|:---:|:---:|
-|0	|0000|	0|	0|
-|1	|0001|	1|	1|
-|2	|0010|	2|	2|
-|3	|0011|	3| 3|
-|4	|0100|	4| 4|
-|5	|0101|	5| 5|
-|6	|0110|	6| 6|
-|7	|0111|	7|	7|
-|8	|1000|	10|	8|
-|9	|1001|	11|	9|
-|10	|1010|	12|	A|
-|11	|1011|	13|	B|
-|12	|1100|	14|	C|
-|13	|1101|	15|	D|
-|14	|1110|	16|	E|
-|15	|1111|	17|	F|
-
-![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements/Table-Listing-Binary-Gray-BCD-Express-3-Coding-Decimal-Digits.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/edit/main/1_Requirements/example.jpg)
 ## SWOT Analysis: 
 
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/edit/main/1_Requirements/swot.jpg)
 
 
-
-
-
-
-![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements/SWOT%20Analysis.png)
-
-
-# 4W&#39;s and 1&#39;H
+# 4W and 1H
 
 ## Who:
 
