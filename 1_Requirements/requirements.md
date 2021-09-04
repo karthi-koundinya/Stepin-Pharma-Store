@@ -13,7 +13,7 @@
 
 ## Defining Our System
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/edit/main/1_Requirements/design.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/1_Requirements/design.jpg)
 
 ## Research:
 
