@@ -157,7 +157,7 @@ void display()
     gotoxy(10,3);
     printf("<--:Display RECORD:-->");
     gotoxy(10,5);
-    printf("S.No   Name of medicine   Company Name  Price      mfg_date     exp_date");
+    printf("ID   Name of medicine   Company Name  Price      mfg_date     exp_date");
     gotoxy(10,6);
     printf("===========================================================================");
     fp = fopen("record.txt","rb+");
