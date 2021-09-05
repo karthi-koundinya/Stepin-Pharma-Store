@@ -1,15 +1,15 @@
 # Name of the project
-PROJECT_NAME = Pharma
+PROJECT_NAME = pharma
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = Pharma.c\
-src/Pharma_operations.c
+SRC = pharma.c\
+src/pharma_operations.c
 
 # All test source files
-TEST_SRC = src/Pharma_operations.c\
+TEST_SRC = src/pharma_operations.c\
 test/test_Pharma_operations.c\
 unity/unity.c\
 
@@ -66,7 +66,7 @@ sanitize_check:
 coverage:$(TEST_SRC)
 	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
-	gcov -a Pharma_operations.c
+	gcov -a pharma_operations.c
 
 # Remove all the built files, invoke by `make clean`
 clean:
