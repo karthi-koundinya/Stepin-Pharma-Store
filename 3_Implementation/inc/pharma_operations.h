@@ -15,7 +15,7 @@ typedef struct medicine
     int price;
     char mfg_date[20];
     char exp_date[20];
-};
+}m;
 
 void gotoxy(int ,int );
 void menu();
