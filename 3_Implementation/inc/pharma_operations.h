@@ -12,7 +12,7 @@ typedef struct medicine
 {
     char name[20];
     char cname[10];
-    int price;
+    int  price;
     char mfg_date[20];
     char exp_date[20];
 }m;
