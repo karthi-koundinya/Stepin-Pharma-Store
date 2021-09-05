@@ -3,7 +3,7 @@
  * @author Karthik S (you@domain.com)
  * @brief 
  * @version 0.1
- * @date 2021-09-04
+ * @date 2021-09-05
  * 
  * @copyright Copyright (c) 2021
  * 
@@ -93,7 +93,7 @@
   char name[100];
   printf("Enter the Medicine Name\n");
   fflush(stdin);
-  scanf("%s",&name);
+  scanf("%s",name);
   for(i=0;i<number;i++)
   {
    if(strcmp(m[i].medicneName,name)==0)
@@ -140,17 +140,17 @@ printf("\n======================================================================
   scanf("%d",&(m[number].id));
   fflush(stdin);
   printf("Enter Medicine Name\n");
-  scanf("%s",&(m[number].medicneName));
+  scanf("%s",(m[number].medicneName));
 	fflush(stdin);
   printf("Enter Company Name\n");
   fflush(stdin);
- scanf("%s",&(m[number].Company));
+ scanf("%s",(m[number].Company));
   printf("Enter Manufactured Date\n");
   fflush(stdin);
- scanf("%s",&(m[number].Mfg_Date));
+ scanf("%s",(m[number].Mfg_Date));
   printf("Enter Expiry Date\n");
   fflush(stdin);
-  scanf("%s",&(m[number].Exp_Date));
+  scanf("%s",(m[number].Exp_Date));
   printf("Enter Quantity\n");
   fflush(stdin);
   scanf("%d",&(m[number].quantity));
@@ -224,7 +224,7 @@ printf("\n======================================================================
          char name[100];
          printf("Enter Name to be update\n");
          fflush(stdin);
-         scanf("%s",&name);
+         scanf("%s",name);
          strcpy(m[i].medicneName,name);
          printf("Medicine Name updated Successfully\n");
         }
@@ -233,7 +233,7 @@ printf("\n======================================================================
          char company[100];
          printf("Enter company to be update\n");
          fflush(stdin);
-         gets(company);
+         scanf("%s",company);
          strcpy(m[i].Company,company);
          printf("Company updated Successfully\n");
         }
@@ -242,7 +242,7 @@ printf("\n======================================================================
          char mfg[11];
          printf("Enter Manufacturing date to be updatd\n");
          fflush(stdin);
-         gets(mfg);
+         scanf("%s",mfg);
          strcpy(m[i].Mfg_Date,mfg);
          printf("Manufacturing Date updated Successfully\n");
         }
@@ -251,7 +251,7 @@ printf("\n======================================================================
          char exp[11];
          printf("Enter Expiry date to be update\n");
          fflush(stdin);
-         gets(exp);
+         scanf("%s",exp);
          strcpy(m[i].Exp_Date,exp);
          printf("Expiry Date updated Successfully\n");
         }
