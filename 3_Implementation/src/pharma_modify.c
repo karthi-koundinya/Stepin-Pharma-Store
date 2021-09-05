@@ -1,7 +1,7 @@
 #include<pharma_operations.h>
 void modify()
 {
-    char stname[20];
+    char mname[20];
     FILE *fp;
     struct medicine m;
     system("cls");
@@ -10,7 +10,7 @@ void modify()
     gotoxy(10,5);
     printf("Enter name of medicine to modify: ");
     fflush(stdin);
-    gets(stname);
+    gets(mname);
     fp = fopen("record.txt","rb+");
     if(fp == NULL){
         gotoxy(10,6);
@@ -21,7 +21,7 @@ void modify()
     fflush(stdin);
     while(fread(&m,sizeof(m),1,fp) == 1)
     {
-        if(strcmp(stname,m.name) == 0){
+        if(strcmp(mname,m.name) == 0){
             gotoxy(10,7);
             printf("Enter Name: ");
             gets(m.name);

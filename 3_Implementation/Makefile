@@ -3,7 +3,6 @@ SRC = pharma.c\
 src\pharma_add.c\
 src\pharma_delete.c\
 src\pharma_display.c\
-src\pharma_add.c\
 src\pharma_goto.c\
 src\pharma_menu.c\
 src\pharma_modify.c\
