@@ -114,7 +114,6 @@ void add()
         printf("Enter details of medicine.");
         gotoxy(10,7);
         printf("Enter Name : ");
-//        gets(std.name);///???
         gets(m.name);
         gotoxy(10,8);
         printf("Enter Company Name  : ");
@@ -125,19 +124,14 @@ void add()
         fflush(stdin);
         gotoxy(10,10);
         printf("Enter Manufacture Date : ");
-//        gets(std.mfg_date);///???
         gets(m.mfg_date);
         gotoxy(10,11);
         printf("Enter Expiry Date : ");
         gets(m.exp_date);
-//        gotoxy(10,12);
-//        printf("Enter Father's Name : ");
-//        gets(std.fathername);
         fwrite(&m,sizeof(m),1,fp);
         gotoxy(10,15);
         printf("Want to add of another record? Then press 'y' else 'n'.");
         fflush(stdin);
-//        another = getch();///???
         another = getch();
         system("cls");
         fflush(stdin);
@@ -157,7 +151,7 @@ void display()
     gotoxy(10,3);
     printf("<--:Display RECORD:-->");
     gotoxy(10,5);
-    printf("ID   Name of medicine   Company Name  Price      mfg_date     exp_date");
+    printf("ID   Name of medicine  Company Name  Price      mfg_date     exp_date");
     gotoxy(10,6);
     printf("===========================================================================");
     fp = fopen("record.txt","rb+");
