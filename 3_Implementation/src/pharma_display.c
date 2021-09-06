@@ -13,7 +13,7 @@
 
 void DisplayMedicine(int number)
 {
-  int i;
+  int i=0;
   if(number!=0)
   {
     printf("All Available Items are\n");
