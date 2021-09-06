@@ -1,5 +1,9 @@
 # Design
 
+## Behavioural diagram
+
+![image]https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/behavior.jpg
+
 ## Activity diagram
 ![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/activity%20dia.jpg)
 
