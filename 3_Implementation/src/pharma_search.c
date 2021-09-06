@@ -4,7 +4,7 @@ void SearchMedicine(int number){
   char name[100];
   printf("Enter the Medicine Name\n");
   fflush(stdin);
-  scanf("%s",&name);
+  scanf("%s",name);
   for(i=0;i<number;i++)
   {
    if(strcmp(m[i].medicneName,name)==0)

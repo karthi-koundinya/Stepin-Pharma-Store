@@ -35,7 +35,7 @@ void UpdateMedicine(int number)
          char name[100];
          printf("Enter Name to be update\n");
          fflush(stdin);
-         scanf("%s",&name);
+         scanf("%s",name);
          strcpy(m[i].medicneName,name);
          printf("Medicine Name updated Successfully\n");
         }
