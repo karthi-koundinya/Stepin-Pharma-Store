@@ -7,6 +7,7 @@
 #include<stdlib.h>
 #include<windows.h>
 #include<string.h>
+#include<unistd.h>
 
 typedef struct medicine
 {
