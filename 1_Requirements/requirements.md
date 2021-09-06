@@ -20,14 +20,17 @@
 
 ## Research
 
+Pharma store management in hospitals is a tedious and time consuming chore with limited resources tasked for the purpose and poor penetration of Information Technology. The process of automation is slow paced due to various inherent factors and is being challenged by the increasing inventory loads and escalating budgets for procurement of drugs. The medical stores are looking for the services that are accurate and reliable for providing services to the customers and workers. Every store is making efforts to computerize their activities for providing better services to the customers. The medical store management system is the system used for medicine stock inventory in the medical stores. This system enables the manager of the store to record and manage all activities of the medical shop.
+
 ## Examples
 
 ![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/1_Requirements/example.jpg)
+
 ## SWOT Analysis 
 
 ![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/1_Requirements/swot.jpg)
 
-# 4W and 1H
+# 4W's and 1'H
 
 ## Who
 
