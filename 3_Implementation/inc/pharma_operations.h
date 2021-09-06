@@ -3,27 +3,18 @@
 #define __PHARMA_OPERATIONS_H__
 
 #include<stdio.h>
-#include<conio.h>
-#include<stdlib.h>
-#include<windows.h>
-#include<string.h>
-#include<unistd.h>
+ #include<string.h>
+ #include<ctype.h>
 
-typedef struct medicine
-{
-    char name[20];
-    char cname[10];
-    int  price;
-    char mfg_date[20];
-    char exp_date[20];
-}m;
+struct Medicine{
+   int id,price,quantity;
+   char medicneName[100],Company[100],Mfg_Date[11],Exp_Date[11];
+  }m[100];
 
-void gotoxy(int ,int );
-void menu();
-void add();
-void display();
-void search();
-void modify();
-void deleterec();
+void DisplayMedicine(int number);
+ void SearchMedicine(int number);
+ void AddMedicine(int number,struct Medicine m[]);
+ void DeleteMedicine(int number);
+ void UpdateMedicine(int number);
 
 #endif  /* __PHARMA_OPERATIONS_H__*/

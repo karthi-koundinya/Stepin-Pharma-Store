@@ -1,52 +1,81 @@
 #include<pharma_operations.h>
-void modify()
-{
-    char mname[20];
-    FILE *fp;
-    struct medicine m;
-    system("cls");
-    gotoxy(10,3);
-    printf("<--:MODIFY RECORD:-->");
-    gotoxy(10,5);
-    printf("Enter name of medicine to modify: ");
-    fflush(stdin);
-    gets(mname);
-    fp = fopen("record.txt","rb+");
-    if(fp == NULL){
-        gotoxy(10,6);
-        printf("Error opening file");
-        exit(1);
-    }
-    rewind(fp);
-    fflush(stdin);
-    while(fread(&m,sizeof(m),1,fp) == 1)
+void UpdateMedicine(int number)
+ {
+  int id,quantity,choice,c,i;
+  printf("Enter id to change Details\n");
+  scanf("%d",&id);
+  for(i=0;i<number;i++)
+  {
+   if(m[i].id==id && m[i].id!=0)
+   {
+    do
     {
-        if(strcmp(mname,m.name) == 0){
-            gotoxy(10,7);
-            printf("Enter Name: ");
-            gets(m.name);
-            gotoxy(10,8);
-            printf("Enter Company Name  : ");
-            gets(m.cname);
-            gotoxy(10,9);
-            printf("Enter Price : ");
-            scanf("%d",&m.price);
-            gotoxy(10,10);
-            printf("Enter Manufacture Date : ");
-            fflush(stdin);
-            gets(m.mfg_date);
-            gotoxy(10,11);
-            printf("Enter Expiry Date : ");
-            fflush(stdin);
-            gets(m.exp_date);
-            fseek(fp ,-sizeof(m),SEEK_CUR);
-            fwrite(&m,sizeof(m),1,fp);
-            break;
+        printf("Enter\n1 - Change Quantity\n2 - Change Price\n3 - Change Name\n4 - Change Company\n5 - Change Manufaturing Date\n6 - Change Expiry Date\nAny other number to exit\n");
+        scanf("%d",&choice);
+        if(choice==1)
+        {
+         int quantity;
+         printf("Enter Quantity to be update\n");
+         fflush(stdin);
+         scanf("%d",&quantity);
+         m[i].quantity=quantity;
+         printf("Quantity updated Successfully\n");
         }
-    }
-    fclose(fp);
-    gotoxy(10,16);
-    printf("Press any key to continue.");
-    getch();
-    menu();
-}
+        if(choice==2)
+        {
+         int price;
+         printf("Enter Price to be update\n");
+         fflush(stdin);
+         scanf("%d",&price);
+         m[i].price=price;
+         printf("Price updated Successfully\n");
+        }
+        if(choice==3)
+        {
+         char name[100];
+         printf("Enter Name to be update\n");
+         fflush(stdin);
+         scanf("%s",&name);
+         strcpy(m[i].medicneName,name);
+         printf("Medicine Name updated Successfully\n");
+        }
+        if(choice==4)
+        {
+         char company[100];
+         printf("Enter company to be update\n");
+         fflush(stdin);
+         gets(company);
+         strcpy(m[i].Company,company);
+         printf("Company updated Successfully\n");
+        }
+        if(choice==5)
+        {
+         char mfg[11];
+         printf("Enter Manufacturing date to be updatd\n");
+         fflush(stdin);
+         gets(mfg);
+         strcpy(m[i].Mfg_Date,mfg);
+         printf("Manufacturing Date updated Successfully\n");
+        }
+        if(choice==6)
+        {
+         char exp[11];
+         printf("Enter Expiry date to be update\n");
+         fflush(stdin);
+         gets(exp);
+         strcpy(m[i].Exp_Date,exp);
+         printf("Expiry Date updated Successfully\n");
+        }
+        if(choice<=0 && choice>6)
+        {
+         printf("Enter valid Choice\n");
+        }
+        printf("Enter 1 to Change other Details Else any other number\n");
+        fflush(stdin);
+        scanf("%d",&c);
+    }while(c==1);
+
+    break;
+   }
+  }
+ }

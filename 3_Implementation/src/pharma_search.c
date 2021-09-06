@@ -1,39 +1,26 @@
 #include<pharma_operations.h>
-void search()
-{
-    FILE *fp;
-    struct medicine m;
-    char stname[20];
-    system("cls");
-    gotoxy(10,3);
-    printf("<--:SEARCH RECORD:-->");
-    gotoxy(10,5);
-    printf("Enter name of medicine : ");
-    fflush(stdin);
-    gets(stname);
-    fp = fopen("record.txt","rb+");
-    if(fp == NULL){
-        gotoxy(10,6);
-        printf("Error opening file");
-        exit(1);
-    }
-    while(fread(&m,sizeof(m),1,fp ) == 1){
-        if(strcmp(stname,m.name) == 0){
-            gotoxy(10,8);
-            printf("Name : %s",m.name);
-            gotoxy(10,9);
-            printf("Company Name : %s",m.cname);
-            gotoxy(10,10);
-            printf("Price : %d",m.price);
-            gotoxy(10,11);
-            printf("Manufacture Date : %s",m.mfg_date);
-            gotoxy(10,12);
-            printf("Expiry Date : %s",m.exp_date);
-        }
-    }
-    fclose(fp);
-    gotoxy(10,16);
-    printf("Press any key to continue.");
-    getch();
-    menu();
-}
+void SearchMedicine(int number){
+   int i,flag=0;
+  char name[100];
+  printf("Enter the Medicine Name\n");
+  fflush(stdin);
+  scanf("%s",&name);
+  for(i=0;i<number;i++)
+  {
+   if(strcmp(m[i].medicneName,name)==0)
+   {
+    flag=1;
+    printf("These are the details of Medicine\n");
+   printf("==================================================================================\n");
+    	printf("Id   Name            Price     Quantity  Company Name    Mfg Date    Exp Date\n");
+	printf("==================================================================================\n");
+printf("%-5d%-16s%-10d%-10d%-16s%-12s%-16s\n",m[i].id,m[i].medicneName,m[i].price,m[i].quantity,m[i].Company,m[i].Mfg_Date,m[i].Exp_Date);
+printf("===================================================================================\n");
+  
+   }
+  }
+  if(flag==0)
+  {
+   printf("Entered Name Not Found\n");
+  }
+ }

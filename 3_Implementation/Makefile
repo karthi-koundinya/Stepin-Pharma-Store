@@ -5,8 +5,6 @@ BUILD_DIR = Build
 SRC = src/pharma_add.c\
 src/pharma_delete.c\
 src/pharma_display.c\
-src/pharma_goto.c\
-src/pharma_menu.c\
 src/pharma_modify.c\
 src/pharma_search.c\
 
