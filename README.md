@@ -12,3 +12,7 @@ Repository: https://github.com/karthi-koundinya/Stepin-Pharma-Store.git
 Group: no group - individual project
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fa965bef42474ad3975b913c3c72746f)](https://www.codacy.com/gh/karthi-koundinya/Stepin-Pharma-Store/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=karthi-koundinya/Stepin-Pharma-Store&amp;utm_campaign=Badge_Grade)
+
+https://www.code-inspector.com/project/27472/score/svg
+
+https://www.code-inspector.com/project/27472/status/svg
