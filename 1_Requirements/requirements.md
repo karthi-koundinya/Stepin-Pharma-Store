@@ -4,11 +4,15 @@
 
 ## Features
 
-  1. Add Medicine
-  2. Update Medicine
-  3. Delete Medicine
-  4. Search Medicine
-  5. Display Medicine
+1. Add Medicine
+
+2. Update Medicine
+
+3. Delete Medicine
+
+4. Search Medicine
+
+5. Display Medicine
 
 ## Defining Our System
 
