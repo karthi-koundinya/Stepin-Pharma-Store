@@ -1,6 +1,18 @@
+/**
+ * @file pharma_modify.c
+ * @author Karthik S (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-09-06
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include<pharma_operations.h>
+
 void UpdateMedicine(int number)
- {
+{
   int id,quantity,choice,c,i;
   printf("Enter id to change Details\n");
   scanf("%d",&id);
@@ -44,7 +56,7 @@ void UpdateMedicine(int number)
          char company[100];
          printf("Enter company to be update\n");
          fflush(stdin);
-         gets(company);
+         scanf("%s",company);
          strcpy(m[i].Company,company);
          printf("Company updated Successfully\n");
         }
@@ -53,7 +65,7 @@ void UpdateMedicine(int number)
          char mfg[11];
          printf("Enter Manufacturing date to be updatd\n");
          fflush(stdin);
-         gets(mfg);
+         scanf("%s",mfg);
          strcpy(m[i].Mfg_Date,mfg);
          printf("Manufacturing Date updated Successfully\n");
         }
@@ -62,7 +74,7 @@ void UpdateMedicine(int number)
          char exp[11];
          printf("Enter Expiry date to be update\n");
          fflush(stdin);
-         gets(exp);
+         scanf("%s",exp);
          strcpy(m[i].Exp_Date,exp);
          printf("Expiry Date updated Successfully\n");
         }
@@ -74,7 +86,6 @@ void UpdateMedicine(int number)
         fflush(stdin);
         scanf("%d",&c);
     }while(c==1);
-
     break;
    }
   }
