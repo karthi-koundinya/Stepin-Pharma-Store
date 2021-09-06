@@ -21,7 +21,7 @@ void AddMedicine(int number,struct Medicine m[])
   
   printf("Enter Medicine Name\n");
   scanf("%s",(m[number].medicneName));
-	fflush(stdin);
+  fflush(stdin);
   
   printf("Enter Company Name\n");
   fflush(stdin);
