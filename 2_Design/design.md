@@ -1,4 +1,4 @@
-# Design
+# Architecture
 
 ## High Level Design
 
@@ -10,6 +10,10 @@
 
 ## Low Lovel Design
 
-## Behavioural diagram
+## Flow diagram
 
 ![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/behavior.jpg)
+
+## Usecase diagram
+
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/use%20case.jpg)
