@@ -7,7 +7,7 @@ This is the Mini Project of Pharma Store Management System is a console applicat
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ea1f3f664e04f58ae4aefa1001d05d8)](https://app.codacy.com/gh/karthi-koundinya/Stepin-Pharma-Store?utm_source=github.com&utm_medium=referral&utm_content=karthi-koundinya/Stepin-Pharma-Store&utm_campaign=Badge_Grade_Settings)
+[![C/C++ CI - Build Status](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/c-cpp.yml)
 ![Code Grade](https://www.code-inspector.com/project/27472/score/svg)
 ![Code Grade](https://www.code-inspector.com/project/27472/status/svg)
 
