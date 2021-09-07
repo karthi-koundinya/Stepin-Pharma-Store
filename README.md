@@ -2,7 +2,7 @@
 
 Pharma Store Management System
 
-This is the Mini Project of Pharma Store Management System is a console application. In this project, you can add, modify and delete and search records and displaying of medicines.
+This is the Mini Project of Pharma Store Management System is a console application. In this project, you can add, modify, delete, search records and displaying of medicines.
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
@@ -16,7 +16,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 | `2_Design` | Documents specifying design details |
 | `3_Implementation` | All code and documentation |
 | `4_TestPlanAndOutput` | Documents with test plans and procedures |
-| `5_Report` | Final Mini Project Report |
+| `5_Report` |  Project Report |
 | `6_ImagesAndVideos` | working steps of mini project |
 
 ## Contributors List and Summary
