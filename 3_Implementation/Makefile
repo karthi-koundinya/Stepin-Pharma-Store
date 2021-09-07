@@ -8,6 +8,12 @@ src/pharma_display.c\
 src/pharma_modify.c\
 src/pharma_search.c\
 
+TEST_SRC = src/pharma_operations.c\
+test/test_pharma_operations.c\
+unity/unity.c\
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 INC = -Iinc\
 -Iunity
 
@@ -37,6 +43,10 @@ $(PROJECT_NAME):all
 
 all:$(BUILD_DIR)
 	gcc pharma.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
+
+coverageCheck:$(BUILD_DIR)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
