@@ -6,7 +6,7 @@ This is the Mini Project of Pharma Store Management System is a console applicat
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/cppcheck.yml) ![Code Grade](https://www.code-inspector.com/project/27472/score/svg) | ![Code Grade](https://www.code-inspector.com/project/27472/status/svg)
+[![C/C++ CI - Build Status](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/c-cpp.yml) [![CI](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/main.yml/badge.svg)](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/main.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/karthi-koundinya/Stepin-Pharma-Store/actions/workflows/cppcheck.yml) ![Code Grade](https://www.code-inspector.com/project/27472/score/svg) ![Code Grade](https://www.code-inspector.com/project/27472/status/svg)
 
 ## Folder structure:
 
