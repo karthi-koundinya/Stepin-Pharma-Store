@@ -15,6 +15,7 @@ void AddMedicine(int number,struct Medicine m[])
 {
   char name[100];
   
+  
   printf("Enter Medicine Id\n");
   scanf("%d",&(m[number].id));
   fflush(stdin);
