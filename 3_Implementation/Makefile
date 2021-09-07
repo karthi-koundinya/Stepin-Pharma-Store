@@ -8,8 +8,7 @@ src/pharma_display.c\
 src/pharma_modify.c\
 src/pharma_search.c\
 
-TEST_SRC = src/pharma_operations.c\
-test/test_pharma_operations.c\
+TEST_SRC = test/pharma_test.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
