@@ -23,6 +23,15 @@ else
    endif
 endif
 
+# Project Output name
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+
+# Document files
+DOCUMENTATION_OUTPUT = doc/html
+
+# Default target built
+$(PROJECT_NAME):all
+
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean doc
 
@@ -42,3 +51,4 @@ clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
 	make clean -C doc
 	rmdir $(BUILD_DIR) doc/html
+
