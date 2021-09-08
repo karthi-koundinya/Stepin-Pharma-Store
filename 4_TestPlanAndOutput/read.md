@@ -26,9 +26,9 @@
 
 ## Modify Medicine
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/modify.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/Modify.jpg)
 
 ## Display Medicine
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/display.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/Display.jpg)
 
