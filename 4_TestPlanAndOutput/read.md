@@ -19,16 +19,16 @@
 # Output
 
 ## Add Medicine
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/addMedicine.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/addMedicine.jpg)
 
 ## Search and Delete Medicine
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/class%20dia.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/SearchDelete.jpg)
 
 ## Modify Medicine
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/behavior.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/modify.jpg)
 
 ## Display Medicine
 
-![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/use%20case.jpg)
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/4_TestPlanAndOutput/display.jpg)
 
