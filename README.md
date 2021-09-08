@@ -23,7 +23,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 
 |PS No. |  Name   |    Features    |No Test Cases|Test Case Pass|
 |:---:|:---:|:---:|:---:|:---:|
-|`99006140` | Karthik S  | Complete project   | 5   | 5  |
+|`99006140` | Karthik S  | Recorde Storage and Access   | 5   | 5  |
     
 
 ## Challenges Faced and How Was It Overcome
