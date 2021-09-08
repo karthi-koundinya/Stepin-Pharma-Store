@@ -12,8 +12,8 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       | Search Medicine Record |  "Search_1" | "Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234" | "Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234" |Requirement based |
-|  L_02       | Display Medicine Record |  " Displat_opt" | All Records | All Records |Scenario based    |
+|  L_01       | Search Medicine Record | "Search_1" | "Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234" | "Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234" |Requirement based |
+|  L_02       | Display Medicine Record | "Displat_opt" | All Records | All Records |Scenario based    |
 
 # Output
 
