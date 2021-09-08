@@ -32,8 +32,8 @@ jobs:
         gitinspector.py --version
         echo "Running for commit : $GITHUB_SHA"
         echo "============ Git Inspector ==========="
-        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc .
-        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc . > ~/result.html
+        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_Implementation/unity -x file:doc .
+        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_Implementation/unity -x file:doc . > ~/result.html
         echo "======================================"
    #If using gihub io pages feature
    # - name : Update Results to gh-pages
