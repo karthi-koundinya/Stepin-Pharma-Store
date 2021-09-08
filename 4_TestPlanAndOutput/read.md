@@ -15,3 +15,20 @@
 |  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
 |  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
 |  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+
+# Output
+
+## Add Medicine
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/addMedicine.jpg)
+
+## Search and Delete Medicine
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/class%20dia.jpg)
+
+## Modify Medicine
+
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/behavior.jpg)
+
+## Display Medicine
+
+![image](https://github.com/karthi-koundinya/Stepin-Pharma-Store/blob/main/2_Design/use%20case.jpg)
+
